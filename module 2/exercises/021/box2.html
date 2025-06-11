@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: blanchedalmond;
+        }
+        
+        header {
+            background-color: lightyellow;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(250, 234, 165);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgb(167, 157, 110);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color:rgb(68, 56, 2);
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color:rgb(199, 93, 6);
+        }
+
+        main {
+            background-color: lightyellow;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 4px 1px rgb(179, 178, 173);
+        }
+            
+        article {
+            background-color: rgb(250, 223, 183);
+        }
+
+        article > aside {
+            background-color: rgb(245, 239, 218);
+
+        }
+        footer{
+            background-color: #2b1e08;
+            color: whitesmoke;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Tecnologia Estilo</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias da cidade</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, consequatur, porro tempore ea mollitia eius fuga, sed facere reprehenderit sit laboriosam eligendi odit dolor soluta autem quas magnam sint qui?</p>
+                <aside>
+                    <p>Artigo por Larissa Caldeira</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Larissa Caldeira</p>
+    </footer>
+</body>
+</html>

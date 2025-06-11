@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Abra esse site em varios dispositivos diferentes ou aumente e diminua o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 650px)" srcset="images/lari-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/lari-m.png" type="image/png">
+        <img src="images/lari-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <p>Aprendendo a reproduzir audios em HTML5.</p>
+    <audio preload="metadata" controls>
+        <source src="media/happy-mistake.mp3" type="audio/mpeg">
+    </audio>
+    
+</body>
+</html>

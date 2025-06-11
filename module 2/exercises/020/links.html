@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        a {
+            color: #db0d0d;
+        }
+        a:visited {
+            color: #463103;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #0d0dbf;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #e2f107;
+        }
+        .especial:hover {
+            color: #f50575;
+            text-decoration: none;
+            background-color: #e782b1;
+        }
+        .especial::before {
+            content: ' >> ';
+            font-weight: lighter;
+        }
+        .especial::after {
+            content: ' <<';
+            font-weight: lighter;   
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/larissa-caldeira/" target="_blank" class="especial">Linkedin</a></li>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank">Git do Guanabara</a></li>
+        <li><a href="https://drive.google.com/drive/my-drive" target="_blank">Meu Drive</a></li>
+    </ul>
+</body>
+</html>
