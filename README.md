@@ -8,3 +8,9 @@ Criando um site responsivo para outros dispositivos: <br>
 
 Aprendendo o efeito Parallax: <br>
 <a href="https://lalaricas.github.io/projeto-cordel/">Cordel Moderno</a>.
+
+Utilizando iframe para trazer conteúdos de outras páginas: <br>
+<a href="https://lalaricas.github.io/projeto-redes-sociais">Redes sociais</a>.
+
+Criando do zero uma página de download, utilizando a metodologia mobile first e media queries:<br>
+<a href="https://lalaricas.github.io/projeto-login">Tela de login</a>.
