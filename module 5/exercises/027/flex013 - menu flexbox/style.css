@@ -26,7 +26,7 @@ header {
 
 header > h1 {
     /* border: 1px dotted black; */
-    flex: 0 0 410px;
+    flex: 0 0 250px;
     text-shadow: 2px 2px 0px rgb(165, 164, 164);
 }
 
@@ -35,6 +35,7 @@ header > nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
+    flex: 0 0 460;
 }
 
 header > nav > a {
